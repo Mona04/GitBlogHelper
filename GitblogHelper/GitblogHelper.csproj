@@ -9,6 +9,9 @@
     <None Update="index.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="navigation.yml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="setting.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

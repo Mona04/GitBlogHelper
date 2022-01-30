@@ -7,7 +7,6 @@ namespace DirectoryHelper
 {
     class DirHelper
     {
-        static string SettingDir = Directory.GetCurrentDirectory() + "\\setting.xml";
         static string Info =
 @"=====================================================================
 This program do 2 Works.
@@ -15,7 +14,7 @@ This program do 2 Works.
 1. make Markdown documents for directory indices. 
 2. append directory structures like ""- title: Categories"" in /_data/navigation.yml
 
-As it reads setting.xml and index.md, please set up that file. 
+As it reads setting.xml, navigation.yml and index.md, please set up that file. 
 =====================================================================";
 
         static XmlNodeList xmlList;
@@ -45,13 +44,13 @@ As it reads setting.xml and index.md, please set up that file.
             Console.ReadLine();
 
             XmlDocument xml_setting = new XmlDocument();
-            xml_setting.Load(SettingDir);
+            xml_setting.Load("setting.xml");
 
             xmlList    = xml_setting.SelectNodes("/setting");
+            navigation = File.ReadAllLines("navigation.yml");
+            indexMD    = File.ReadAllText("index.md");
             baseDir    = xmlList.Item(0)["GitBlogFolder"].InnerText;
             postsDir   = xmlList.Item(0)["PostFolder"].InnerText;
-            navigation = xmlList.Item(0)["Navigation"].InnerText.Split("\n");
-            indexMD    = File.ReadAllText("index.md");
 
             foreach (XmlNode xnl in xmlList) {
                 Console.WriteLine();
