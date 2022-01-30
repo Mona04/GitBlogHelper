@@ -34,9 +34,9 @@ if you have more than two directory like ```[GitBlogFolder]/Category1/_posts/```
 
 It is almost same as ```/_data/navigation.yml```. 
 
-It reads ```navigation.yml``` and appends directory structures in your ```/_data/navigation.yml```. 
+It reads ```navigation.yml``` and appends directory structures into your ```/_data/navigation.yml```. 
 
-Makes sure it have one more ```-title:``` and last one not have children of ```-titles:```.
+Makes sure it has more than one ```-title:``` and the last one not have children of ```-titles:```.
 
 ### index.md
 
