@@ -32,9 +32,9 @@ if you have more than two directory like ```[GitBlogFolder]/Category1/_posts/```
 
 ### navigation.yml
 
-It is almost same as ```_data/navigation.yml```. 
+It is almost same as ```/_data/navigation.yml```. 
 
-It read ```navigation.yml``` and append directory structures. 
+It reads ```navigation.yml``` and appends directory structures in your ```/_data/navigation.yml```. 
 
 Makes sure it have one more ```-title:``` and last one not have children of ```-titles:```.
 
