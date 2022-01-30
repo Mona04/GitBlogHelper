@@ -22,7 +22,7 @@ For detail., Read [my Blog Posts](https://mona04.github.io/posts/jekyll/Hierarch
 
 ### Setting.xml
 
-It has two value, ```PostFolder``` and ```GitBlogFoler```
+It has two values, ```PostFolder``` and ```GitBlogFoler```
 
 ```GitBlogFoler``` is Absolute Directory where your gitblog base forler exists.
 
