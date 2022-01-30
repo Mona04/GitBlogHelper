@@ -10,12 +10,14 @@ This Program helps to implement and manage that structures.
 
   + The infomations can be accessed using ```site.data.navigation[page.sidebar.nav]```.
 
-  + ```sidebar.html``` or ```nav_list.html``` can use this information.
+  + ```sidebar.html``` or ```nav_list.html``` can use these informations.
 
 2. It makes ```directory.md``` using a given md files. 
  
   + URLs end with Category Name open these md files. Just editing template md file is sufficient.
- 
+
+For detail., Read [my Blog Posts](https://mona04.github.io/posts/jekyll/Hierarchy-Category-Sidebar/)
+
 ## Setting
 
 ### Setting.xml
