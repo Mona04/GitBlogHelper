@@ -42,4 +42,4 @@ Makes sure it has more than one ```-title:``` and the last one not have children
 
 Each of Directories, it creates ```[DirectoryName].md``` using ```index.md``` and replaces ```CATEGORY``` with each of Directory Names.
 
-Default ```index.md```is sufficent to filter the just category.
+Default ```index.md```may sufficent to filter the just category.
