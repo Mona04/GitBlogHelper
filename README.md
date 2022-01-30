@@ -1,6 +1,6 @@
 # GitBlogHelper
 
-In Gitblog, especially Jekyll, Directory can be categories but it does not manage structers.
+In Gitblog, especially Jekyll, Directory can be categories but it does not manage directory structers.
 
 So it is hard to implement a hierarchical Category Sidebar. 
 
