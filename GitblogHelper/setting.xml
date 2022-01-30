@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting>
+	<GitBlogFolder>C:\Users\dh045\Desktop\Blog\Mona04.github.io</GitBlogFolder>
+	<PostFolder>C:\Users\dh045\Desktop\Blog\Mona04.github.io\Posts</PostFolder>
+	<Navigation>#
+# main links
+main:
+# - title: "Quick-Start Guide"
+#  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
+# Mains
+
+navi:
+  - title: Portfolio ★
+    url: /Navis/navi-portfolios/
+  - title: "Memo"
+    url: /Posts/Memo/
+  - title: Tags
+    url: /Navis/navi-tags/
+  - title: Categories
+    url: /Navis/navi-categories/</Navigation>
+</setting>
