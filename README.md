@@ -28,7 +28,7 @@ It has two values, ```PostFolder``` and ```GitBlogFoler```
 
 ```PostFolder``` is Absolute Directory where your posts exists. 
 
-if you have more than two directory like ```[GitBlogFolder]/Category1/_posts/``` and ```[GitBlogFolder]/Category2/_posts/```, merge these into one foler like ```[GitBlogFolder]/Posts/Category1/_posts/``` 
+if you have more than two directory like ```[GitBlogFolder]/Category1/_posts/``` and ```[GitBlogFolder]/Category2/_posts/```, merge these into one folder like ```[GitBlogFolder]/Posts/Category1/_posts/``` 
 
 ### navigation.yml
 
