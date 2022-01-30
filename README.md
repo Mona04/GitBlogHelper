@@ -8,13 +8,13 @@ This Program helps to implement and manage that structures.
 
 1. it update navigation.yml using directory infomations.
 
-The infomations can be accessed using ```site.data.navigation[page.sidebar.nav]```.
+  + The infomations can be accessed using ```site.data.navigation[page.sidebar.nav]```.
 
-```sidebar.html``` or ```nav_list.html``` can use this information.
+  + ```sidebar.html``` or ```nav_list.html``` can use this information.
 
 2. It makes ```directory.md``` using a given md files. 
  
- URLs end with Category Name open these md files. Just editing template md file is sufficient.
+  + URLs end with Category Name open these md files. Just editing template md file is sufficient.
  
 ## Setting
 
