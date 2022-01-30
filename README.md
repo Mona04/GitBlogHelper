@@ -6,7 +6,7 @@ So it is hard to implement a hierarchical Category Sidebar.
 
 This Program helps to implement and manage that structures.
 
-1. it update navigation.yml using directory infomations.
+1. it update ```navigation.yml``` using directory infomations.
 
   + The infomations can be accessed using ```site.data.navigation[page.sidebar.nav]```.
 
