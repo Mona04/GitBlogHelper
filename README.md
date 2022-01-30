@@ -1,7 +1,9 @@
 # GitBlogHelper
 
 In Gitblog, especially Jekyll, Directory can be categories but it does not manage structers.
+
 So it is hard to implement a hierarchical Category Sidebar. 
+
 This Program helps to implement and manage that structures.
 
 1. it update navigation.yml using directory infomations.
