@@ -88,10 +88,10 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
             using (StreamWriter sw = new StreamWriter(navigation_yml))
             {
                 foreach(var nav in InNaviYml)
-                    sw.Write(nav);
+                    sw.WriteLine(nav);
                 sw.WriteLine();
                 foreach (var nav in added)
-                    sw.Write(nav);
+                    sw.WriteLine(nav);
             }
         }
 
@@ -113,8 +113,8 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
                 if (info.Name.ToLower() == "_posts")
                     continue;
 
-                Out.Add(offset + "  - title: \"" + info.Name + "\"\n");
-                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/") + "/\n");
+                Out.Add(offset + "  - title: \"" + info.Name + "\"");
+                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/") + "/");
 
                 Navi_Recursive(level + 1, dir, InBaseDir, ref Out);
             }

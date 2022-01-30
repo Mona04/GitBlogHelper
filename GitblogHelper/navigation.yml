@@ -14,10 +14,10 @@ main:
 
 navi:
   - title: Portfolio ★
-    url: /Navis/navi-portfolios/
+    url: /navi-portfolios/
   - title: "Memo"
     url: /Posts/Memo/
   - title: Tags
-    url: /Navis/navi-tags/
+    url: /navi-tags/
   - title: Categories
-    url: /Navis/navi-categories/
+    url: /navi-categories/
