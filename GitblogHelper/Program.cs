@@ -114,8 +114,8 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
                 if (info.Name.ToLower() == "_posts")
                     continue;
 
-                Out.Add(offset + "  - title: \"" + info.Name + "\"");
-                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/").Replace("#","sharp") + "/");
+                Out.Add(offset + "  - title: \"" + info.Name.Replace(" sharp", "#") + "\"");
+                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/") + "/");
 
                 Navi_Recursive(level + 1, dir, InBaseDir, ref Out);
             }
