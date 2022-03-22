@@ -7,7 +7,7 @@ author_profile: true
 sidebar:
   nav: "navi"
 ---
-
+ 
 <div>
 {% assign entries_layout = 'grid' %}
 {% for category in site.categories %}
