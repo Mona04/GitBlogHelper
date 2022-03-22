@@ -119,6 +119,8 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
 
                 Navi_Recursive(level + 1, dir, InBaseDir, ref Out);
             }
+
+            Out.Add("\n");
         }
     }
 
