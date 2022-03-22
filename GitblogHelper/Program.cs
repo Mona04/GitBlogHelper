@@ -115,7 +115,7 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
                     continue;
 
                 Out.Add(offset + "  - title: \"" + info.Name + "\"");
-                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/") + "/");
+                Out.Add(offset + "    url: /" + Path.GetRelativePath(InBaseDir, info.FullName).Replace("\\", "/").Replace("#","sharp") + "/");
 
                 Navi_Recursive(level + 1, dir, InBaseDir, ref Out);
             }
