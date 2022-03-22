@@ -92,6 +92,7 @@ As it reads setting.xml, navigation.yml and index.md, please set up that file.
                 sw.WriteLine();
                 foreach (var nav in added)
                     sw.WriteLine(nav);
+                sw.WriteLine();
             }
         }
 
